@@ -15,7 +15,7 @@
     },
     "servers": [
         {
-            "url": "https://ted-lasso-quotes.herokuapp.com/v2"
+            "url": "https://ted-lasso-quotes.onrender.com/v2"
         }
     ],
     "paths": {

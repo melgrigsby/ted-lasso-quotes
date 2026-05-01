@@ -94,7 +94,7 @@ export default [
     "Just listen to your gut, and on the way down to your gut, check in with your heart. Between those two things, they’ll let you know what's what.",
     "Pain is like carbon monoxide. Expressing it to the person who hurt you is like opening a vent, but holding it in will poison you.",
     "You need to stop letting yesterday get in the way of today.",
-    "Y'all got to get together and woman up",
+    "Y'all got to get together and woman up.",
     "I try to love my Dad for who he is and forgive him for who he isn't",
     "What do you have to be sad about? Did one of the Paw Patrol dogs die?",
     "That is the thing about being a parent. Sometimes you lose and...sometimes you win, but most of the time you just tie. All we can do is keep playing.",
