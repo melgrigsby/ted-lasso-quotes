@@ -34,7 +34,7 @@ app.get("/v2/quotes/search/:term", (req, res) => {
 });
 
 app.get("/v2/quotes/:num?", (req, res) => {
-    res.send(getRandomQuotes(parseInt(req.params.num, 10) || 1));
+    res.send(getRandomQuotes(parseInt(req.params.num || "1", 10)));
 });
 
 app.get("/v2/schema", (req, res) => {

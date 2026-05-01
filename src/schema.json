@@ -1,13 +1,12 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Ron Swanson Quotes",
+        "title": "Ted Lasso Quotes",
         "version": "1.0.0",
-        "description": "A HTTP API for retrieving Ron Swanson quotes",
+        "description": "A HTTP API for retrieving Ted Lasso quotes",
         "contact": {
-            "name": "James Wright",
-            "email": "james@jamesswright.co.uk",
-            "url": "https://jamesswright.co.uk"
+            "name": "Melissa Grigsby",
+            "email": "mel.h.grigsby@gmail.com"
         },
         "license": {
             "name": "Apache 2.0",
@@ -16,13 +15,13 @@
     },
     "servers": [
         {
-            "url": "https://ron-swanson-quotes.herokuapp.com/v2"
+            "url": "https://ted-lasso-quotes.herokuapp.com/v2"
         }
     ],
     "paths": {
         "/quotes": {
             "get": {
-                "description": "Returns a single Ron Swanson quote wrapped in an array",
+                "description": "Returns a single Ted Lasso quote wrapped in an array",
                 "responses": {
                     "200": {
                         "$ref": "#/components/responses/success"
@@ -32,7 +31,7 @@
         },
         "/quotes/{count}": {
             "get": {
-                "description": "Returns {count} quotes in an array",
+                "description": "Returns {count} Ted Lasso quotes in an array",
                 "responses": {
                     "200": {
                         "$ref": "#/components/responses/success"
@@ -52,7 +51,7 @@
         },
         "/quotes/search/{term}": {
             "get": {
-                "description": "Returns an array of quotes matching {term} without case sensitivity",
+                "description": "Returns an array of Ted Lasso quotes matching {term} without case sensitivity",
                 "responses": {
                     "200": {
                         "$ref": "#/components/responses/success"
