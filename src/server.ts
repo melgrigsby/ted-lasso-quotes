@@ -2,7 +2,7 @@ import * as express from "express";
 import * as rateLimit from 'express-rate-limit';
 import getRandomQuotes from "./getRandomQuotes";
 import searchQuotes from "./searchQuotes";
-import schema from "./schema.json";
+import * as schema from "./schema.json";
 
 
 const app = express();
